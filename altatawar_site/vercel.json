@@ -1,5 +1,5 @@
 {
 	
 	"builds":[{"src": "send-email.py", "use": "@vercel/python"}],
-	"routes": [{"src": "/(.*)", "dest": "main.py"}]
+	"routes": [{"src": "/(.*)", "dest": "send-email.py"}]
 }
